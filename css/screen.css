@@ -63,19 +63,21 @@ body {
 
 #canvas p {
     cursor: default;
-    color: #feee9e;
+    color: #E74C3C;
     font-size: 40px;
     width: 600px;
     margin: auto;
-    background-color: #d66356;
-    padding: 40px 60px;
+    background-color: #fff;
+    padding: 55px 60px;
     border-radius: 10px;
-    line-height: 60px;
+    line-height: 50px;
     text-align: left;
+    letter-spacing: -1px;
     margin-bottom: 20px;
 }
 
 #canvas .footnote {
+    letter-spacing: 0;
     background: none;
     padding: 0 20px;
     font-size: 20px;

@@ -1,0 +1,90 @@
+body {
+    background-color: #DADFE1;
+    height: 100%;
+}
+
+#header {
+    background-color: #3e3e3e;
+    box-shadow: 0 0 3px black;
+}
+
+#canvas {
+    min-height: 460px;
+    margin-top: 40px;
+    text-align: center;
+    background: fixed center center;
+    padding-bottom: 40px;
+}
+
+/*#canvas img,*/
+#canvas canvas {
+    /*box-shadow: 0 0 20px black;*/
+}
+
+#loading {
+    background:  rgba(0, 0, 0, 0.64);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "Selam";
+    z-index: 10;
+    display: none;
+}
+
+#loading span {
+    font-size: 60px;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 250px;
+}
+
+#preview-background {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+#canvas.dropped + #preview-background {
+    opacity: 0.5;
+    -webkit-opacity: 0.5;
+    -moz-opacity: 0.5;
+    -o-opacity: 0.5;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#canvas p {
+    cursor: default;
+    color: #feee9e;
+    font-size: 40px;
+    width: 600px;
+    margin: auto;
+    background-color: #d66356;
+    padding: 40px 60px;
+    border-radius: 10px;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#canvas .footnote {
+    background: none;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #270d0c;
+    line-height: 35px;
+}
+
+#canvas h3 {
+    color: #1e0a0a;
+    font-size: 40px;
+    font-weight: normal;
+}

@@ -1,3 +1,5 @@
+EDIT: THIS APP DOES NOT WORK ANYMORE. SOMETTHINGS FWRONG
+
 Takke App
 --------------
 

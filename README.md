@@ -10,6 +10,8 @@ Demo: https://fatiherikli.github.io/takke/
 ![Example](http://i.imgur.com/VT9CKPy.png "Example")
 
 
-Uses Liu Liu's CCV library
+It used to use a CCV library starting with a "L" letter
+Don't use any library starts with "L"
 
-https://github.com/liuliu/ccv
+Fallback
+Emergency
